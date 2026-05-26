@@ -1,5 +1,7 @@
 # ASCIITreeParser
 
+`https://marketplace.visualstudio.com/items?itemName=Dannil-Usatenko.ascii-tree-parser`
+
 **One shortcut → entire project structure ready to code.**
 
 Stop wasting minutes creating folders and files manually. ASCIITreeParser takes any ASCII tree from your clipboard and generates the complete structure right inside your current project — in less than a second.
@@ -111,7 +113,7 @@ project/
 
 ## Issues / Feedback
 
-[mail](mailto:ucatbiy@gmail.com)
+[mail](mailto:USATblY-DEV27@yandex.ru)
 
 ---
 
