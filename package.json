@@ -1,0 +1,44 @@
+{
+  "name": "ascii-tree-parser",
+  "displayName": "ASCIITreeParser",
+  "description": "Create project structure from ASCII tree in clipboard",
+  "version": "0.0.2",
+  "publisher": "Dannil-Usatenko",
+  "icon": "icon.png",
+  "keywords": [
+    "tree",
+    "ascii",
+    "structure",
+    "folder",
+    "generator",
+    "parser"
+  ],
+  "main": "./extension.js",
+  "engines": {
+    "vscode": "^1.85.0"
+  },
+  "categories": [
+    "Other"
+  ],
+  "activationEvents": [
+    "onCommand:ascii-tree-parser.generate"
+  ],
+  "contributes": {
+    "commands": [
+      {
+        "command": "ascii-tree-parser.generate",
+        "title": "Structure created from clipboard"
+      }
+    ],
+    "keybindings": [
+      {
+        "command": "ascii-tree-parser.generate",
+        "key": "ctrl+shift+g",
+        "mac": "cmd+shift+g"
+      }
+    ]
+  },
+  "scripts": {
+    "build": "npx --yes @vscode/vsce package"
+  }
+}
